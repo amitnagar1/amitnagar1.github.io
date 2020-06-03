@@ -195,7 +195,7 @@ a:hover {
 
 .card-container {
   padding: 16px 16px;
-  border-top: 3px solid #ef4f67;
+  /* border-top: 3px solid #ef4f67; */
   text-align: center;
 }
 
@@ -257,6 +257,9 @@ a:hover {
   }
 }
 @media (max-width: 858px) {
+  .contact-card {
+    flex-basis: 100%;
+  }
   .content-block {
     padding: 4rem;
   }
@@ -314,9 +317,9 @@ a:hover {
   .card {
     flex-basis: 100%;
   }
-  .contact-card {
+  /* .contact-card {
     flex-basis: 50%;
-  }
+  } */
   .product-card {
     flex-basis: 100%;
     margin: 10px 0;
@@ -326,4 +329,8 @@ section {
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+}
+
+a {
+  text-decoration: none;
 }
